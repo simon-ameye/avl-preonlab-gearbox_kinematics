@@ -3,6 +3,7 @@ This will set transform groups rotation speed to help setting of gearbox kinemat
 Just drag and drop to your PreonLab window!
 Please contact simon.ameye@avl.com for help
 For PreonLab V4.3.0
+
 ---MANUAL---
 IN PreonLab:
 0) Create a PreonLab scene, import geometries.
@@ -10,6 +11,7 @@ Create as much transform groups as you have "lines"
 Lines are “transform groups” that are aligned with shafts.
 Ex, in 2 shafts manual gearboxes, create 2 transform groups aligned (co axial) with shafts.
 Give nice names to lines and gears to make following steps easier
+
 IN THIS SCRIPT: 
 1) Enter gear names
 It will only be used to define gear contacts.
@@ -45,6 +47,7 @@ input_gear = "l1_g1"
 input_rotation_speeds = [200, 500] #RPS
 input_rotation_timings = [0, 2] #s
 rotation_direction = [0, 0, 1]
+
 IN PREONLAB: 
 6) Drag and drop this file in PL.
 Your lines transform groups will be keyframed so that rotation speed is defined!
