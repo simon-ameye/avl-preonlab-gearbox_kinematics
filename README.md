@@ -1,4 +1,3 @@
-"""
 Script written by Simon Ameye, AVL France, for RENAULT
 This will set transform groups rotation speed to help setting of gearbox kinematics
 Just drag and drop to your PreonLab window!
@@ -50,4 +49,3 @@ IN PREONLAB:
 6) Drag and drop this file in PL.
 Your lines transform groups will be keyframed so that rotation speed is defined!
 You can use it to transform your gears in the connection tab.
-"""
