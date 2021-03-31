@@ -56,17 +56,17 @@ You can use it to transform your gears in the connection tab.
 """
 
 #gearbox data
-gears_names = ["diff", "intermsmall", "intermbig", "input"]
-nb_of_teeth = [70, 18, 55, 20]
-lines = ["TransformGroup_diff", "TransformGroup_interm", "TransformGroup_interm", "TransformGroup_input"]
+gears_names = ["diff", "intermsmall", "intermbig", "input"] #[-] names of the grars
+nb_of_teeth = [70, 18, 55, 20] #[-] nb of teeth
+lines = ["TransformGroup_diff", "TransformGroup_interm", "TransformGroup_interm", "TransformGroup_input"] #[-] lines names
 gears_contacts = [
     ["diff", "intermsmall"],
-    ["intermbig", "input"]]
+    ["intermbig", "input"]] #[-] gears names in contact
 
-input_gear = "input"
-input_rotation_speeds = [0, -100, -100, 300] #RPS
-input_rotation_timings = [0, 1, 2, 3] #s
-rotation_direction = [1, 0, 0]
+input_gear = "input" #[-] name of the input gear
+input_rotation_speeds = [0, -100, -100, 300] #[RPS]
+input_rotation_timings = [0, 1, 2, 3] #[s]
+rotation_direction = [1, 0, 0] #[-]
 
 #code
 import preonpy
